@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bggenero">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="null"/>
+    </Property>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+    <Property name="visible" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" pref="970" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" pref="630" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft Himalaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TELEFONO:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="50" y="250" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="comboCiudad">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="e3" green="fd" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="108">
+                <StringItem index="0" value="Seleccionar ciudad"/>
+                <StringItem index="1" value="ALAUSI"/>
+                <StringItem index="2" value="AMBATO"/>
+                <StringItem index="3" value="ARENILLAS"/>
+                <StringItem index="4" value="ATACAMES"/>
+                <StringItem index="5" value="ATAHUALPA"/>
+                <StringItem index="6" value="AZOGUES"/>
+                <StringItem index="7" value="BABAHOYO"/>
+                <StringItem index="8" value="BA&#xd1;OSDEAGUASANTA"/>
+                <StringItem index="9" value="BIBLIAN"/>
+                <StringItem index="10" value="BOLIVAR"/>
+                <StringItem index="11" value="CA&#xd1;AR"/>
+                <StringItem index="12" value="CATAMAYO"/>
+                <StringItem index="13" value="CAYAMBE"/>
+                <StringItem index="14" value="CEVALLOS"/>
+                <StringItem index="15" value="CHAGUARPAMBA"/>
+                <StringItem index="16" value="CHAMBO"/>
+                <StringItem index="17" value="CHILLANES"/>
+                <StringItem index="18" value="CHIMBO"/>
+                <StringItem index="19" value="CHINCHIPE"/>
+                <StringItem index="20" value="CHONE"/>
+                <StringItem index="21" value="CHORDELEG"/>
+                <StringItem index="22" value="COTACACHI"/>
+                <StringItem index="23" value="CUENCA"/>
+                <StringItem index="24" value="CUMANDA"/>
+                <StringItem index="25" value="CUYABENO"/>
+                <StringItem index="26" value="DAULE"/>
+                <StringItem index="27" value="DELEG"/>
+                <StringItem index="28" value="DURAN"/>
+                <StringItem index="29" value="ELCARMEN"/>
+                <StringItem index="30" value="EL GUABO"/>
+                <StringItem index="31" value="EL OYALFARO"/>
+                <StringItem index="32" value="EL PAN"/>
+                <StringItem index="33" value="EL  TAMBO"/>
+                <StringItem index="34" value="ELTRIUNFO"/>
+                <StringItem index="35" value="ESMERALDAS"/>
+                <StringItem index="36" value="ESPEJO"/>
+                <StringItem index="37" value="GIRON"/>
+                <StringItem index="38" value="GONZALOPIZARRO"/>
+                <StringItem index="39" value="GUACHAPALA"/>
+                <StringItem index="40" value="GUALACEO"/>
+                <StringItem index="41" value="GUALAQUIZA"/>
+                <StringItem index="42" value="GUARANDA"/>
+                <StringItem index="43" value="GUAYAQUIL"/>
+                <StringItem index="44" value="HUAQUILLAS"/>
+                <StringItem index="45" value="IBARRA"/>
+                <StringItem index="46" value="JIPIJAPA"/>
+                <StringItem index="47" value="JUNIN"/>
+                <StringItem index="48" value="LA CONCORDIA"/>
+                <StringItem index="49" value="LAGO AGRIO"/>
+                <StringItem index="50" value="LA LIBERTAD"/>
+                <StringItem index="51" value="LATACUNGA"/>
+                <StringItem index="52" value="LA TRONCAL"/>
+                <StringItem index="53" value="LOJA"/>
+                <StringItem index="54" value="MACARA"/>
+                <StringItem index="55" value="MACHALA"/>
+                <StringItem index="56" value="MANTA"/>
+                <StringItem index="57" value="MILAGRO"/>
+                <StringItem index="58" value="MONTECRISTI"/>
+                <StringItem index="59" value="MONTUFAR"/>
+                <StringItem index="60" value="MORONA"/>
+                <StringItem index="61" value="NABON"/>
+                <StringItem index="62" value="NARANJAL"/>
+                <StringItem index="63" value="O&#xd1;A"/>
+                <StringItem index="64" value="ORELLANA"/>
+                <StringItem index="65" value="OTAVALO"/>
+                <StringItem index="66" value="PASAJE"/>
+                <StringItem index="67" value="PASTAZA"/>
+                <StringItem index="68" value="PATATE"/>
+                <StringItem index="69" value="PAUTE"/>
+                <StringItem index="70" value="PEDERNALES"/>
+                <StringItem index="71" value="PICHINCHA"/>
+                <StringItem index="72" value="PI&#xd1;AS"/>
+                <StringItem index="73" value="PLAYAS"/>
+                <StringItem index="74" value="PORTOVELO"/>
+                <StringItem index="75" value="PUCARA"/>
+                <StringItem index="76" value="PUERTOLOPEZ"/>
+                <StringItem index="77" value="QUEVEDO"/>
+                <StringItem index="78" value="QUITO"/>
+                <StringItem index="79" value="RIOBAMBA"/>
+                <StringItem index="80" value="RIOVERDE"/>
+                <StringItem index="81" value="ROCAFUERTE"/>
+                <StringItem index="82" value="RUMI&#xd1;AHUI"/>
+                <StringItem index="83" value="SALCEDO"/>
+                <StringItem index="84" value="SALINAS"/>
+                <StringItem index="85" value="SAMBORONDON"/>
+                <StringItem index="86" value="SAN CRISTOBAL"/>
+                <StringItem index="87" value="SAN FERNANDO"/>
+                <StringItem index="88" value="SAN LORENZO"/>
+                <StringItem index="89" value="SAN MIGUEL"/>
+                <StringItem index="90" value="SANTA ANA"/>
+                <StringItem index="91" value="SANTA ELENA"/>
+                <StringItem index="92" value="SANTA ISABEL"/>
+                <StringItem index="93" value="SANTIAGO"/>
+                <StringItem index="94" value="SANTO DOMINGO"/>
+                <StringItem index="95" value="SARAGURO"/>
+                <StringItem index="96" value="SIGSIG"/>
+                <StringItem index="97" value="SIMON BOLIVAR"/>
+                <StringItem index="98" value="SUCUA"/>
+                <StringItem index="99" value="SUCUMBIOS"/>
+                <StringItem index="100" value="TENA"/>
+                <StringItem index="101" value="TULCAN"/>
+                <StringItem index="102" value="VALENCIA"/>
+                <StringItem index="103" value="VENTANAS"/>
+                <StringItem index="104" value="VINCES"/>
+                <StringItem index="105" value="ZAMORA"/>
+                <StringItem index="106" value="ZARUMA"/>
+                <StringItem index="107" value="OTRO..."/>
+              </StringArray>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="310" y="310" width="210" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="btregistrar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9f" green="d7" red="d2" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="MS Gothic" size="28" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenes/comprobado (1).png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="REGISTRARSE"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="50" y="490" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="btcancelar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9f" green="d7" red="d2" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="MS Gothic" size="28" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenes/boton-x.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CANCELAR"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="490" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtid_prov">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="390" y="140" width="25" height="22"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="MS Gothic" size="44" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="REGISTRO DE PROVEEDOR"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="70" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txttelefono">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="e3" green="fd" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="12" style="0"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="INGRESE LA CONTRASE&#xd1;A"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="310" y="240" width="210" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft Himalaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="NOMBRE DEL PROVEEDOR:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="50" y="170" width="-1" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtnombre">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="e3" green="fd" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="12" style="0"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="INGRESE LA CONTRASE&#xd1;A"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="310" y="170" width="210" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft Himalaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CIUDAD:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="50" y="320" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOtraCiudad">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="e3" green="fd" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="12" style="0"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="INGRESE LA CONTRASE&#xd1;A"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="310" y="340" width="210" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="MS Gothic" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="(Escriba aqui de ser otra ciudad)"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="309" y="380" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenes/agente-inmobiliario (2).png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="600" y="110" width="320" height="330"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="MS Gothic" size="44" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="6d" green="31" red="25" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PROVEEDORES"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="636" y="458" width="290" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="MS Gothic" size="44" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="94" green="6f" red="5f" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PROVEEDORES"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="633" y="460" width="270" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="9f" green="d7" red="d2" type="rgb"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="970" height="650"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
